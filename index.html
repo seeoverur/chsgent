@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHS Arts & Events | Immersive Theatrical Experiences</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+    
+    <style>
+        /* Custom "Performing Arts" Styling */
+        :root {
+            --primary-color: #0f0f0f; /* Deep Black */
+            --accent-color: #d4af37; /* Metallic Gold */
+            --text-light: #f8f9fa;
+            --text-muted: #b3b3b3;
+        }
+
+        body {
+            font-family: 'Lato', sans-serif;
+            background-color: var(--primary-color);
+            color: var(--text-light);
+        }
+
+        h1, h2, h3, h4, .navbar-brand {
+            font-family: 'Playfair Display', serif;
+        }
+
+        .navbar {
+            background-color: #000 !important;
+            border-bottom: 1px solid #333;
+        }
+
+        .navbar-brand {
+            font-weight: 700;
+            letter-spacing: 2px;
+            color: white !important;
+        }
+
+        .nav-link {
+            color: #ccc !important;
+            text-transform: uppercase;
+            font-size: 0.85rem;
+            letter-spacing: 1px;
+        }
+
+        .nav-link:hover {
+            color: var(--accent-color) !important;
+        }
+
+        /* Hero Section - Theater Vibe */
+        .hero-section {
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.4)), url('https://images.unsplash.com/photo-1514306191717-452ec28c7f42?q=80&w=2070&auto=format&fit=crop'); /* Stage/Curtain Vibe */
+            background-size: cover;
+            background-position: center;
+            height: 80vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .hero-title {
+            font-size: 4rem;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 10px rgba(0,0,0,0.8);
+        }
+
+        .btn-gold {
+            background-color: var(--accent-color);
+            color: black;
+            border: none;
+            padding: 15px 40px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-weight: bold;
+            transition: all 0.3s;
+        }
+
+        .btn-gold:hover {
+            background-color: #fff;
+            color: black;
+        }
+
+        /* Featured Section */
+        .featured-section {
+            background-color: #1a1a1a;
+            padding: 80px 0;
+        }
+
+        .feature-img-container {
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 0 30px rgba(0,0,0,0.5);
+        }
+
+        .feature-img-container img {
+            width: 100%;
+            transition: transform 0.5s;
+        }
+
+        .feature-img-container:hover img {
+            transform: scale(1.05);
+        }
+
+        /* Calendar Table */
+        .table-dark {
+            --bs-table-bg: #1a1a1a;
+            --bs-table-border-color: #333;
+        }
+        
+        .ticket-btn {
+            border: 1px solid var(--accent-color);
+            color: var(--accent-color);
+            text-transform: uppercase;
+            font-size: 0.8rem;
+            padding: 8px 20px;
+            transition: 0.3s;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .ticket-btn:hover {
+            background-color: var(--accent-color);
+            color: black;
+        }
+
+        footer {
+            border-top: 1px solid #333;
+            padding: 40px 0;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">CHS ARTS & TICKETED EVENTS - PRIVATE BOOKINGS</a>
+            <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#spotlight">Spotlight</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#tickets">Tickets & Dates</a></li>
+                    <li class="nav-item ms-3">
+                        <a class="btn btn-gold btn-sm" href="#contact">Private Booking</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero-section">
+        <div class="container">
+            <span class="text-uppercase text-warning letter-spacing-2">Now Showing in Charleston</span>
+            <h1 class="hero-title">The Art of Entertainment</h1>
+            <p class="lead mb-5 text-white opacity-75">An immersive, choreographed theatrical experience designed for the modern audience. Sophisticated meets amusement of the highest level is what we offer here. The ultimate night out event. Magic Bachelorette Experience for fun and interactive theatrical. You can buy tickets below or <strong>reserve your own time by calling or texting below.</strong></p>
+            <a href="#tickets" class="btn btn-gold">Buy Tickets</a>
+        </div>
+    </header>
+
+    <div class="container my-5 text-center">
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <p class="text-white fs-5">We recommend you call for details 1st. Easy to speak to, fast responses and respectful</p>
+                    <img src="logoCP.png" style="width: max-content;" class="img-fluid"
+                </div>
+            </div>
+        </div>
+
+
+    <section id="about" class="py-5">
+        <div class="container my-5 text-center">
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <h2 class="mb-4">A Modern Cabaret Experience</h2>
+                    <p class="text-white fs-5">
+                        We blend high-energy dance, theatrical performance, and interactive hosting into a sophisticated evening event. 
+                        Moving beyond traditional nightlife, our ensemble casts bring a Vegas-style production directly to your private venue or our partner stages. This is 
+                        perfect for any group looking for fun while on their bachelorette trip in Charleston SC. This gentlemen style show-at-noon or night is the perfect fit
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="spotlight" class="featured-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 mb-4 mb-md-0">
+                    <div class="feature-img-container">
+                        <img src="chs-gent.png" class="justify-content-start" alt="Featured Artist">
+                    </div>
+                </div>
+                <div class="col-md-6 ps-md-5">
+                    <span class="text-warning text-uppercase mb-2 d-block">Featured Artist of the Month</span>
+                    <h2 class="display-5 mb-3">The "Magic" Experience</h2>
+                    <p class="text-white mb-4">
+                        Meet our lead performance Michael director. With a background in competitive dance and modeling, 
+                        he leads the ensemble in creating an unforgettable atmosphere of charm and rhythm. He has experience
+                        and knows how to work a event *by himself* from start to finish at any location you choose. Go with the pro.
+                    </p>
+                    
+                    <ul class="list-unstyled text-white mb-4">
+                        <li class="mb-2"><i class="bi bi-star-fill text-warning me-2"></i> Professional Choreography</li>
+                        <li class="mb-2"><i class="bi bi-star-fill text-warning me-2"></i> Interactive Hosting</li>
+                        <li class="mb-2"><i class="bi bi-star-fill text-warning me-2"></i> Full Costumed Production</li>
+                    </ul>
+
+                    <a href="#contact" class="btn btn-outline-light px-4">Request Booking Availability</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tickets" class="py-5">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-12 text-center">
+                    <h2>Upcoming Showdates</h2>
+                    <p class="text-white">Reserve tickets for public showcases, privates or inquire about private dates. There is no party too big or small that can't be handled. There is no rush to your event and you get refunds if anything causes a cancellation.</p>
+                </div>
+            </div>
+
+            <!-- Cal inline embed code begins -->
+<div style="width:100%;height:100%;overflow:scroll" id="my-cal-inline-show-at-noon"></div>
+<script type="text/javascript">
+  (function (C, A, L) { let p = function (a, ar) { a.q.push(ar); }; let d = C.document; C.Cal = C.Cal || function () { let cal = C.Cal; let ar = arguments; if (!cal.loaded) { cal.ns = {}; cal.q = cal.q || []; d.head.appendChild(d.createElement("script")).src = A; cal.loaded = true; } if (ar[0] === L) { const api = function () { p(api, arguments); }; const namespace = ar[1]; api.q = api.q || []; if(typeof namespace === "string"){cal.ns[namespace] = cal.ns[namespace] || api;p(cal.ns[namespace], ar);p(cal, ["initNamespace", namespace]);} else p(cal, ar); return;} p(cal, ar); }; })(window, "https://app.cal.com/embed/embed.js", "init");
+Cal("init", "show-at-noon", {origin:"https://app.cal.com"});
+
+  Cal.ns["show-at-noon"]("inline", {
+    elementOrSelector:"#my-cal-inline-show-at-noon",
+    config: {"layout":"month_view"},
+    calLink: "kareen-czxira/show-at-noon",
+  });
+
+  Cal.ns["show-at-noon"]("ui", {"hideEventTypeDetails":false,"layout":"month_view"});
+  </script>
+  <!-- Cal inline embed code ends -->
+
+    <section id="contact" class="py-5" ">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-6 text-center">
+                    <h2 class="mb-3">Private Productions</h2>
+                    <p class="text-white mb-4">
+                        Looking to book the ensemble for a bachelorette party or private event? 
+                        Call or text to receive our <strong>Private Production Rider & Rates</strong>.
+                    </p>
+
+                    <p class="text-white mb-4">
+                        I cant say enough this pay at the door or bachelorette party in Charleston activity is top of the line for your group. This will recharge a dull weekend and the crazy you needed on your chs bach trip.    
+                    </p>
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-center">
+        <div class="container">
+            <p class="mb-2 text-uppercase text-white letter-spacing-2">CHS Arts & Events</p>
+            <small class="text-white">&copy; 2025. All bookings subject to rider agreement. Events Only.</small>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
